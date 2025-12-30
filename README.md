@@ -91,11 +91,8 @@ Para subir este proyecto a tu repositorio de GitHub:
 ## Capturas de pantalla
 
 <img width="1920" height="1032" alt="rugby-obs-controller (3)" src="https://github.com/user-attachments/assets/d74c0387-b192-4074-9dce-e4109b03408c" />
-![rugby-obs-controller (3)](https://github.com/user-attachments/assets/7f12867b-84b4-4691-bdc0-1543574d89cb)
 <img width="1920" height="1032" alt="rugby-obs-controller (2)" src="https://github.com/user-attachments/assets/19e60ddb-9ce4-44aa-8493-5c5ebd0ee314" />
-![rugby-obs-controller (2)](https://github.com/user-attachments/assets/99a2bfd1-6d78-43bf-b224-732ea18626cc)
 <img width="1920" height="1140" alt="rugby-obs-controller (1)" src="https://github.com/user-attachments/assets/2f06cd9c-1d42-488f-ada2-04b443f0eacd" />
-![rugby-obs-controller (1)](https://github.com/user-attachments/assets/fa75f1c7-bd6e-4106-9ad6-2996df86a992)
 <img width="722" height="612" alt="rugby-obs-controller" src="https://github.com/user-attachments/assets/1bf2b3d8-bdac-4912-b05c-459961b5b17b" />
 <img width="1920" height="1140" alt="rugby-obs-controller (18)" src="https://github.com/user-attachments/assets/1e12137c-fdb8-4abd-a4e5-a352c9381250" />
 <img width="1920" height="1140" alt="rugby-obs-controller (16)" src="https://github.com/user-attachments/assets/abcc98f5-51cd-4cf3-b85d-edd61cbbbcf3" />
@@ -110,7 +107,6 @@ Para subir este proyecto a tu repositorio de GitHub:
 <img width="1920" height="1140" alt="rugby-obs-controller (7)" src="https://github.com/user-attachments/assets/9debd87d-495e-4bda-98a5-b027e6dd7302" />
 <img width="1920" height="1140" alt="rugby-obs-controller (5)" src="https://github.com/user-attachments/assets/6471c29a-d252-4aa8-b5e0-9c770c35771a" />
 <img width="1920" height="1140" alt="rugby-obs-controller (4)" src="https://github.com/user-attachments/assets/3ab90f3c-1807-4b8e-959d-158acf114ed1" />
-![rugby-obs-controller (4)](https://github.com/user-attachments/assets/cfcbb5c3-d3f2-44ce-8380-b847902c5738)
 
     
 
