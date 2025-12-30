@@ -1,0 +1,118 @@
+:root {
+  --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --bg-color: #242424;
+  --text-color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#root {
+  width: 100%;
+}
+
+/* UI Theme Standards */
+:root {
+  --panel-bg: #333333;
+  --panel-border: 1px solid #444;
+  --input-bg: rgba(0, 0, 0, 0.3);
+  --input-border: 1px solid #555;
+  --input-focus-border: 1px solid #2196f3;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent-color: #2196f3;
+  --danger-color: #f44336;
+  --success-color: #4caf50;
+  --warning-color: #ffeb3b;
+}
+
+.panel {
+  background: var(--panel-bg);
+  padding: 20px;
+  border-radius: 8px;
+  border: var(--panel-border);
+}
+
+.input-field {
+  background: var(--input-bg);
+  border: var(--input-border);
+  color: var(--text-primary);
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  /* Ensure padding doesn't affect width */
+  font-family: inherit;
+}
+
+.input-field:focus {
+  outline: none;
+  border: var(--input-focus-border);
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: var(--accent-color);
+  color: white;
+}
+
+.btn-secondary {
+  background: #555;
+  color: white;
+}
+
+.btn-danger {
+  background: var(--danger-color);
+  color: white;
+}
+
+.btn-success {
+  background: var(--success-color);
+  color: white;
+}
+
+.btn-warning {
+  background: var(--warning-color);
+  color: black;
+}
+
+.section-title {
+  margin-top: 0;
+  border-bottom: 2px solid #555;
+  /* Neutral default, can override with style */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
