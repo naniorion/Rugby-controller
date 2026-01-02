@@ -47,7 +47,8 @@ const expressApp = express();
 expressApp.use(cors());
 
 // Serve static files for OBS/Browser access
-expressApp.use(express.static(path.join(__dirname, '../dist')));
+// Use app.getAppPath() to correctly locate dist folder in both dev and prod (ASAR)
+expressApp.use(express.static(path.join(app.getAppPath(), 'dist')));
 
 const httpServer = createServer(expressApp);
 const io = new Server(httpServer, {

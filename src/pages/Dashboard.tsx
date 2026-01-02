@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useMatch } from '../context/MatchContext';
-import { Link } from 'react-router-dom';
+
 import { LineupEditor } from '../components/LineupEditor';
 import { LabelManager } from '../components/LabelManager';
 import { ActionLog } from '../components/ActionLog';
@@ -187,7 +187,14 @@ export const Dashboard: React.FC = () => {
                     >
                         REINICIAR PARTIDO
                     </button>
-                    <Link to="/overlay" target="_blank" style={{ color: '#aaa', textDecoration: 'none', border: '1px solid #555', padding: '5px 10px', borderRadius: 4 }}>Abrir Overlay</Link>
+                    <a
+                        href={overlayUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: '#aaa', textDecoration: 'none', border: '1px solid #555', padding: '5px 10px', borderRadius: 4 }}
+                    >
+                        Abrir Overlay
+                    </a>
                 </div>
             </header>
 
@@ -734,6 +741,7 @@ export const Dashboard: React.FC = () => {
                                 )
                                 : `¿Quién recibió la tarjeta ${modalAction.details.cardType === 'yellow' ? 'amarilla' : 'roja'}?`
                         }
+                        cards={matchState.cards}
                     />
                 )
             }

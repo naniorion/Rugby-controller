@@ -689,7 +689,7 @@ export const Overlay: React.FC = () => {
                             <div style={{ marginLeft: 'auto', opacity: 0.8 }}>
                                 {/* Show Action Icon */}
                                 <div style={{ width: 50, height: 50 }}>
-                                    {getActionIcon(notification.data.type === 'yellow' ? 'card-yellow' : notification.data.type === 'red' ? 'card-red' : notification.data.type)}
+                                    {getActionIcon((notification.data.type === 'card' && notification.data.cardType) ? `card-${notification.data.cardType}` : notification.data.type)}
                                 </div>
                             </div>
                         </div>

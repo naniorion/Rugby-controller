@@ -123,3 +123,6 @@ Desktop.ini
 dist-electron/
 dist/
 release/
+
+# Electron Builder Cache
+.eb-cache/
