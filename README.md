@@ -8,12 +8,17 @@ Controlador profesional para transmisiones de Rugby en OBS, desarrollado con Ele
 *   **Cronómetro**: Control de tiempo con soporte para 1ª y 2ª parte, parada y ajuste manual.
 *   **Gestión de Equipos**: Nombres, iniciales, colores y logos personalizables.
 *   **Alineaciones**: Editor de alineaciones y gestión de sustituciones en tiempo real.
-*   **Tarjetas**: Control de tarjetas amarillas (con temporizador de 10 min) y rojas.
+*   **Tarjetas**: 
+    *   Amarilla (temporizador 10 min).
+    *   Roja (convencional).
+    *   **Roja 20 Minutos**: Regla específica con temporizador de 20 min y notificación diferenciada.
 *   **Overlay Dinámico**:
     *   Diseño moderno y limpio.
-    *   Animaciones de entrada/salida.
+    *   **Presentación de Partido**: Cartel (Poster) configurable, logos de equipos con animaciones y datos del encuentro (Árbitro, Estadio, etc.).
+    *   **Controles de Escala y Opacidad**: Ajuste en directo de logos, poster y patrocinadores.
+    *   Animaciones de entrada/salida mejoradas.
     *   Resumen del partido (Log de acciones).
-    *   Muestra de alineaciones y estadísticas.
+    *   Muestra de alineaciones y estadísticas comparativas.
     *   Textos en Español.
 *   **Conexión OBS**: Integración vía Browser Source (Fuente de Navegador).
 
