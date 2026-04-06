@@ -78,6 +78,14 @@ nav.scrolled {
   color: var(--text-main);
   text-transform: uppercase;
   letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
 }
 
 .logo span {
@@ -171,6 +179,7 @@ nav.scrolled {
   line-height: 1.1;
   margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -1px;
@@ -277,7 +286,6 @@ nav.scrolled {
   overflow: hidden;
   border-radius: 16px;
   border: 1px solid var(--glass-border);
-  group: true;
 }
 
 .bento-item::after {
@@ -360,6 +368,56 @@ footer a {
 
 /* Animations Tools */
 .opacity-0 { opacity: 0; }
+
+/* Lightbox Modal */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  z-index: 2001;
+}
+
+.lightbox-close:hover {
+  color: var(--accent);
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.lightbox.active img {
+  transform: scale(1);
+}
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(30px); }

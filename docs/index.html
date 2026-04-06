@@ -12,7 +12,10 @@
 
     <!-- Navigation -->
     <nav id="navbar">
-        <div class="logo">Rugby<span>OBS</span></div>
+        <div class="logo">
+            <img src="icon.ico" alt="Logo" class="logo-img">
+            Rugby<span>OBS</span>
+        </div>
         <div class="nav-links">
             <a href="#features">Características</a>
             <a href="#showcase">Galería</a>
@@ -121,12 +124,18 @@
         </a>
     </section>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Pantalla Completa">
+    </div>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Rugby OBS Controller. Creado por <a href="https://github.com/naniorion" target="_blank">naniorion</a>.</p>
     </footer>
 
-    <!-- Simple Scroll Script -->
+    <!-- Scripts -->
     <script>
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
@@ -135,6 +144,23 @@
             } else {
                 navbar.classList.remove('scrolled');
             }
+        });
+
+        // Lightbox Script
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const bentoImages = document.querySelectorAll('.bento-item img');
+
+        bentoImages.forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightbox.classList.add('active');
+            });
+        });
+
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.remove('active');
         });
     </script>
 </body>
