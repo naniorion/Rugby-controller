@@ -53,10 +53,13 @@ Desde aquí se controla el desarrollo del partido.
 
 
 
-*   **Tarjetas**: Gestión de amonestaciones. Al hacer clic en una tarjeta amarilla, se inicia una cuenta atrás de 10 minutos automáticamente en el overlay. En el caso de tarjeta roja se quedará marcada durante todo el partido.
-*   **Guardar/Cargar Partido**: En la parte superior derecha, junto al botón de reiniciar, encontrará las opciones de:
+*   **Tarjetas**: Gestión de amonestaciones. 
+    *   **Amarilla**: Al hacer clic en una tarjeta amarilla, se inicia una cuenta atrás de 10 minutos automáticamente en el overlay.
+    *   **Roja 20'**: Al hacer clic, se inicia una cuenta atrás de 20 minutos (acorde a las nuevas normativas).
+    *   **Roja**: En el caso de tarjeta roja tradicional, se quedará marcada durante todo el partido.
+*   **Importación/Exportación de la configuración**: En la parte superior derecha, junto al botón de reiniciar, encontrará las opciones de:
     *   **Exportar Config.**: Guarda un archivo `.json` en su equipo con todos los nombres, logos, plantillas y opciones visuales actuales.
-    *   **Importar Config.**: Permite cargar un archivo `.json` previo para recuperar al instante toda la configuración guardada de un partido.
+    *   **Importar Config.**: Permite cargar un archivo `.json` previo para recuperar al instante toda la configuración guardada de un partido anterior.
 
 ### 3.2 Editor de Alineaciones
 Permite configurar personas titulares y suplentes de cada equipo.
@@ -65,7 +68,7 @@ Permite configurar personas titulares y suplentes de cada equipo.
 
 *   Seleccione el equipo (Local o Visitante).
 *   **Ingreso individual**: Rellene los nombres y dorsales, indique si está en el XV titular y haga clic en el botón "+" para actualizar la información.
-*   **Ingreso masivo (Pegar Lista)**: Pulse el botón "Pegar Lista" para revelar una caja de texto. Aquí podrá pegar directamente desde Excel o un bloc de notas su lista de jugadores (usando el formato `[Número] [Nombre]`, un jugador por línea). El sistema detectará a los 15 primeros como titulares y al resto como finalizadores.
+*   **Pegado de alineaciones (Ingreso masivo)**: Pulse el botón "Pegar Lista" para revelar una caja de texto. Aquí podrá pegar directamente desde Excel o un bloc de notas su lista completa de jugadores (usando el formato `[Número] [Nombre]`, persona jugadora por línea). El sistema detectará a los 15 primeros como titulares y al resto como finalizadores automáticamente, agilizando enormemente el proceso.
 *   En caso de error, puede borrar pulsando la “x” roja.
 
 ### 3.3 Gestor de Rótulos (Labels)
@@ -107,14 +110,15 @@ En esta pestaña se encuentra la configuración del programa.
 *   Puede ajustar el tamaño y la opacidad del logotipo y del resto del overlay con las barras de configuración.
 
 ### 3.7 Pestaña Presentación
-En esta pestaña se encuentra la configuración de lo que se verá en el overlay cuando se pulse en “Presentación”. 
+En esta pestaña se encuentra la configuración de lo que se verá en el overlay cuando se active la Presentación (el cartel a pantalla completa para el inicio del partido).
 
 <img width="1920" height="1079" alt="rugby-obs-controller (6)" src="https://github.com/user-attachments/assets/a1857633-5c9d-4cff-8957-8036d05dd31d" />
 
-*   Puede cambiar el título del partido / **nombre de la liga**.
-*   Puede agregar un **cartel** y editar su tamaño y opacidad.
-*   Puede modificar el tamaño y opacidad de los logos en la vista de presentación.
-*   Puede añadir los nombres de las personas que arbitran y comentan el partido, y el nombre del estadio donde se juega.
+*   Puede cambiar el título del partido o el **nombre de la liga**.
+*   Puede añadir los nombres de las personas que arbitran, los que comentan el partido (casters o locutores), y el nombre del estadio donde se juega.
+*   Puede agregar una **imagen de fondo (cartel)** y editar su tamaño y opacidad para darle un toque profesional a la retransmisión.
+*   Puede modificar el tamaño y la opacidad de los escudos de los equipos específicamente para la vista de presentación.
+*   Utilice el botón general de "Mostrar Presentación" en la pestaña para exhibirlo en vivo a través de OBS.
 
 ### 3.8 Vista de Overlay (Salida)
 Esta es la imagen que verá la audiencia. No tiene controles, solo muestra la información que usted envía desde el panel.

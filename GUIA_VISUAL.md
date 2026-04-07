@@ -96,14 +96,19 @@ El sistema gestiona el tiempo de sanción automáticamente.
 ```mermaid
 flowchart TD
     A[Falta Cometida] --> B{¿Tarjeta?}
+    
     B -- Amarilla --> C[Click 'Amarilla']
-    C --> D[Aparece en Overlay]
-    C --> E[Cuenta Atrás 10:00]
-    E --> F{¿Tiempo Agotado?}
-    F -- Sí --> G[Desaparece Automáticamente]
+    C --> D[Aparece en Overlay con<br>Cuenta Atrás 10:00]
+    
+    B -- Roja 20' --> E[Click 'Roja 20']
+    E --> F[Aparece en Overlay con<br>Cuenta Atrás 20:00]
     
     B -- Roja --> H[Click 'Roja']
-    H --> I[Permanente en Pantalla]
+    H --> I[Aparece Fija Permanente<br>en Pantalla]
+    
+    D --> G{¿Tiempo Agotado?}
+    F --> G
+    G -- Sí --> J[El rótulo desaparece<br>Automáticamente]
 ```
 
 ### 3.3 Gestión de Sustituciones 🔄
@@ -114,8 +119,13 @@ Realiza cambios en vivo de manera sencilla:
 
 ### 3.4 Pestañas de Resumen y Presentación 📊
 Además de los controles principales, cuentas con pestañas dedicadas para enriquecer la retransmisión:
-*   **Presentación:** Configura y muestra el cartel inicial con los detalles del partido, lugar, arbitraje y comentaristas.
-*   **Resumen:** Visualiza un registro en tiempo real de todos los eventos del partido y proyecta estadísticas detalladas en pantalla.
+*   **Presentación:** Personaliza e invoca el cartel a pantalla completa para el inicio del partido. Puedes editar el nombre de la liga, añadir a los árbitros, el estadio y los comentaristas, así como cambiar opacidades y tamaños.
+*   **Resumen:** Visualiza un registro en tiempo real de todos los eventos del partido y proyecta estadísticas detalladas en pantalla de diferentes formas.
+
+### 3.5 Importación/Exportación y Pegado Rápido 📁
+Guarda tu trabajo y agiliza las tareas repetitivas previas al partido:
+*   **Pegado de Alineaciones:** En el editor de alineaciones, haz clic en **Pegar Lista** y pega los nombres desde un Excel. El sistema identificará a los 15 primeros como titulares y al resto como suplentes automáticamente.
+*   **Guardar Configuración:** Usa **Exportar Config.** para crear un archivo `.json` con escudos, nombres, configuraciones y plantillas. En tu siguiente retransmisión, usa **Importar Config.** y todo volverá a su sitio en 1 segundo.
 
 ---
 
@@ -131,4 +141,4 @@ Puedes crear rótulos personalizados para mostrar información extra (ej. "Desca
 
 ---
 
-_Documento generado para Rugby OBS Controller v1.0.1_
+_Documento generado para Rugby OBS Controller v1.0.5_
