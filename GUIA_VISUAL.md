@@ -43,9 +43,6 @@ sequenceDiagram
 ```
 
 **📸 Captura de Ayuda:**
-*(Haz una captura del encabezado de tu Panel de Control donde sale la URL verde y pégala aquí o guárdala en una carpeta `img`)*
-`![URL Verde](./img/url_ejemplo.png)`
-
 ---<img width="1920" height="235" alt="rugby-obs-controller_5Rwb0jERRk" src="https://github.com/user-attachments/assets/f77ba8dd-9a20-467a-bb15-552a9887ce11" />
 
 
@@ -88,6 +85,10 @@ Usa los botones grandes de colores.
 *   **Ensayo (Try)**: +5 Puntos.
 *   **Conversión**: +2 Puntos.
 *   **Golpe (Penalty)**: +3 Puntos.
+*   **Drop**: +3 Puntos.
+*   **Ensayo de Castigo**: +7 Puntos.
+
+*(Al puntuar, el programa solicitará el autor/a para mostrar un rótulo automático en pantalla).*
 
 ### 3.2 Gestión de Tarjetas 🟨🟥
 El sistema gestiona el tiempo de sanción automáticamente.
@@ -104,6 +105,17 @@ flowchart TD
     B -- Roja --> H[Click 'Roja']
     H --> I[Permanente en Pantalla]
 ```
+
+### 3.3 Gestión de Sustituciones 🔄
+Realiza cambios en vivo de manera sencilla:
+1. Selecciona el jugador/a titular que sale del campo.
+2. Selecciona el jugador/a suplente que entra.
+3. Pulsa el botón de cambio para confirmarlo y enviar automáticamente la animación al Overlay.
+
+### 3.4 Pestañas de Resumen y Presentación 📊
+Además de los controles principales, cuentas con pestañas dedicadas para enriquecer la retransmisión:
+*   **Presentación:** Configura y muestra el cartel inicial con los detalles del partido, lugar, arbitraje y comentaristas.
+*   **Resumen:** Visualiza un registro en tiempo real de todos los eventos del partido y proyecta estadísticas detalladas en pantalla.
 
 ---
 
