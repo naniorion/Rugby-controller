@@ -1,4 +1,4 @@
-# Rugby controller for OBS
+# Rugby controller
 
 Controlador profesional para transmisiones de Rugby en OBS, desarrollado con Electron, React y TypeScript.
 
@@ -74,25 +74,25 @@ Si quieres modificar el código:
 
 ## Capturas de pantalla
 
-<img width="1920" height="1032" alt="rugby-obs-controller (3)" src="https://github.com/user-attachments/assets/d74c0387-b192-4074-9dce-e4109b03408c" />
-<img width="1920" height="1032" alt="rugby-obs-controller (2)" src="https://github.com/user-attachments/assets/19e60ddb-9ce4-44aa-8493-5c5ebd0ee314" />
-<img width="1920" height="1140" alt="rugby-obs-controller (1)" src="https://github.com/user-attachments/assets/2f06cd9c-1d42-488f-ada2-04b443f0eacd" />
-<img width="722" height="612" alt="rugby-obs-controller" src="https://github.com/user-attachments/assets/1bf2b3d8-bdac-4912-b05c-459961b5b17b" />
-<img width="1920" height="1140" alt="rugby-obs-controller (18)" src="https://github.com/user-attachments/assets/1e12137c-fdb8-4abd-a4e5-a352c9381250" />
-<img width="1920" height="1140" alt="rugby-obs-controller (16)" src="https://github.com/user-attachments/assets/abcc98f5-51cd-4cf3-b85d-edd61cbbbcf3" />
-<img width="1920" height="1009" alt="rugby-obs-controller (15)" src="https://github.com/user-attachments/assets/25b8079f-f9db-4098-87b3-7619004a25d5" />
-<img width="1920" height="1009" alt="rugby-obs-controller (14)" src="https://github.com/user-attachments/assets/c8b47a87-b6a0-477b-9e85-99782eaae725" />
-<img width="1920" height="1140" alt="rugby-obs-controller (13)" src="https://github.com/user-attachments/assets/80ece464-bddb-49ab-8c6e-d401332f7a9d" />
-<img width="1920" height="1140" alt="rugby-obs-controller (12)" src="https://github.com/user-attachments/assets/e3e594f1-5f82-4e5b-9c49-202317472dea" />
-<img width="1920" height="1140" alt="rugby-obs-controller (11)" src="https://github.com/user-attachments/assets/f32f5c0c-6917-463a-95bf-df15d9c111d8" />
-<img width="1920" height="1140" alt="rugby-obs-controller (10)" src="https://github.com/user-attachments/assets/cecf71fc-3ade-43fd-9247-b045d2c46b78" />
-<img width="1920" height="1140" alt="rugby-obs-controller (9)" src="https://github.com/user-attachments/assets/4fa8b7c8-abda-4df5-90d3-df4ad35d7774" />
-<img width="1920" height="1140" alt="rugby-obs-controller (8)" src="https://github.com/user-attachments/assets/72f5ebca-4d4e-4e24-bd5b-70a0105288d3" />
-<img width="1920" height="1140" alt="rugby-obs-controller (7)" src="https://github.com/user-attachments/assets/9debd87d-495e-4bda-98a5-b027e6dd7302" />
-<img width="1920" height="1140" alt="rugby-obs-controller (5)" src="https://github.com/user-attachments/assets/6471c29a-d252-4aa8-b5e0-9c770c35771a" />
-<img width="1920" height="1140" alt="rugby-obs-controller (4)" src="https://github.com/user-attachments/assets/3ab90f3c-1807-4b8e-959d-158acf114ed1" />
-<img width="1920" height="1079" alt="rugby-obs-controller (6)" src="https://github.com/user-attachments/assets/4a8e86c2-a5a5-4b0d-8097-5e6345e37110" />
-<img width="1920" height="1009" alt="rugby-obs-controller (17)" src="https://github.com/user-attachments/assets/36ab0f06-e5d6-4a37-94a6-492eb21b24c7" />
+<img width="1920" height="1032" alt="rugby-controller (3)" src="https://github.com/user-attachments/assets/d74c0387-b192-4074-9dce-e4109b03408c" />
+<img width="1920" height="1032" alt="rugby-controller (2)" src="https://github.com/user-attachments/assets/19e60ddb-9ce4-44aa-8493-5c5ebd0ee314" />
+<img width="1920" height="1140" alt="rugby-controller (1)" src="https://github.com/user-attachments/assets/2f06cd9c-1d42-488f-ada2-04b443f0eacd" />
+<img width="722" height="612" alt="rugby-controller" src="https://github.com/user-attachments/assets/1bf2b3d8-bdac-4912-b05c-459961b5b17b" />
+<img width="1920" height="1140" alt="rugby-controller (18)" src="https://github.com/user-attachments/assets/1e12137c-fdb8-4abd-a4e5-a352c9381250" />
+<img width="1920" height="1140" alt="rugby-controller (16)" src="https://github.com/user-attachments/assets/abcc98f5-51cd-4cf3-b85d-edd61cbbbcf3" />
+<img width="1920" height="1009" alt="rugby-controller (15)" src="https://github.com/user-attachments/assets/25b8079f-f9db-4098-87b3-7619004a25d5" />
+<img width="1920" height="1009" alt="rugby-controller (14)" src="https://github.com/user-attachments/assets/c8b47a87-b6a0-477b-9e85-99782eaae725" />
+<img width="1920" height="1140" alt="rugby-controller (13)" src="https://github.com/user-attachments/assets/80ece464-bddb-49ab-8c6e-d401332f7a9d" />
+<img width="1920" height="1140" alt="rugby-controller (12)" src="https://github.com/user-attachments/assets/e3e594f1-5f82-4e5b-9c49-202317472dea" />
+<img width="1920" height="1140" alt="rugby-controller (11)" src="https://github.com/user-attachments/assets/f32f5c0c-6917-463a-95bf-df15d9c111d8" />
+<img width="1920" height="1140" alt="rugby-controller (10)" src="https://github.com/user-attachments/assets/cecf71fc-3ade-43fd-9247-b045d2c46b78" />
+<img width="1920" height="1140" alt="rugby-controller (9)" src="https://github.com/user-attachments/assets/4fa8b7c8-abda-4df5-90d3-df4ad35d7774" />
+<img width="1920" height="1140" alt="rugby-controller (8)" src="https://github.com/user-attachments/assets/72f5ebca-4d4e-4e24-bd5b-70a0105288d3" />
+<img width="1920" height="1140" alt="rugby-controller (7)" src="https://github.com/user-attachments/assets/9debd87d-495e-4bda-98a5-b027e6dd7302" />
+<img width="1920" height="1140" alt="rugby-controller (5)" src="https://github.com/user-attachments/assets/6471c29a-d252-4aa8-b5e0-9c770c35771a" />
+<img width="1920" height="1140" alt="rugby-controller (4)" src="https://github.com/user-attachments/assets/3ab90f3c-1807-4b8e-959d-158acf114ed1" />
+<img width="1920" height="1079" alt="rugby-controller (6)" src="https://github.com/user-attachments/assets/4a8e86c2-a5a5-4b0d-8097-5e6345e37110" />
+<img width="1920" height="1009" alt="rugby-controller (17)" src="https://github.com/user-attachments/assets/36ab0f06-e5d6-4a37-94a6-492eb21b24c7" />
 
 
     
